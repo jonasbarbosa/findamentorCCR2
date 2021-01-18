@@ -1,6 +1,15 @@
 # Introdução
 
-Esta é uma aplicação criada com o CronApp IDE.
+Esta é uma aplicação criada com o CronApp IDE para o Hackathon CCR2 
+
+Todos unidos e possuindo o grande desejo de aproximar o jovem ao mercado de trabalho desenvolveu-se o fruto dessa união, que usa o processo de gammificação auxiliando o jovem que por vezes encontra-se sem referencia a entrar em contato com profissionais atuantes nas mais diversas áreas do mercado de trabalho.
+
+
+# Publicar o projeto fora da plataforma Cronapp
+https://docs.cronapp.io/display/CRON2/Publicar+projetos+fora+da+plataforma+Cronapp
+
+# Desenvolver projetos Cronapp no Eclipse
+https://docs.cronapp.io/display/CRON2/Desenvolver+projetos+Cronapp+no+Eclipse
 
 ## Pré-Requisitos
 
