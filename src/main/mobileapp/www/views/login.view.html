@@ -1,0 +1,52 @@
+<style title="local">
+#crn-container-708354 { 
+  background-color: rgb(80, 77, 249);
+}
+</style>
+<ion-view role="region" aria-labelledby="login_page_title" cache-view="false" can-swipe-back="false" class="pane login-bg" data-container="true"> 
+  <h1 class="sr-only" id="login_page_title">{{"Users.view.Login" | translate}}</h1> 
+  <ion-content class="scroll-content center-content-vertically" data-component="crn-ion-content" style="background-color: rgb(228, 101, 43);"> 
+    <div style="height: 100px;" data-component="crn-spacer" class="component-holder" id="crn-spacer-51597">&nbsp;</div><div class="list safe-top" data-container="true"> 
+      <div class="col text-center"> 
+        <div data-replace="false" data-component="crn-container" class="component-holder col-xs-12" id="crn-container-divlogo">
+          <img alt="Avatar" src="img/university2.png" class="component-holder center-block col-xs-12" xattr-position="center-block" data-component="crn-image" id="crn-image-618297">
+        </div>
+        <div data-replace="false" data-component="crn-container" class="component-holder col-xs-12" id="crn-container-908362"><button class="button button-block component-holder button-dark col-xs-10" type="submit" xattr-fullsize="button-block" xattr-theme="button-dark" ng-click="cronapi.client('js.blockly.ModalLogin.abrir').run()" data-component="crn-button" id="crn-button-907516"><i class="fa fa-key energized" xattr-icon-theme="energized"></i> <span>Faça login</span></button><button class="button button-block component-holder col-xs-12 button-dark" type="submit" xattr-fullsize="button-block" xattr-theme="button-dark" ng-click="cronapi.screen.changeView('#/app/public/home', [])" data-component="crn-button" id="crn-button-899174"><i class="ion ion-android-add-circle energized" xattr-icon-theme="energized"></i> <span>Não tem acesso? Cadastre-se AQUI</span></button></div> 
+      </div> 
+    </div> 
+  </ion-content> 
+</ion-view> 
+<script type="text/ng-template" id="modal39878"><ion-modal-view>
+   <ion-header-bar align-title="center" class="bar bar-balanced bgmodal" data-component="crn-ion-header-bar" xattr-theme="bar-balanced">
+     <div class="buttons">  
+     </div> 
+     <h1 class="title">Faça login</h1>
+     <div class="buttons">     <button class="button button-right" ng-click="cronapi.client('js.blockly.ModalLogin.fechar').run()">X</button> 
+     </div> 
+   </ion-header-bar>
+  <ion-content class="scroll-content has-header" data-component="crn-ion-content">
+  <div data-replace="true" data-component="crn-container" class="component-holder" id="crn-container-formLogin">
+  <form class="form-validation" autocomplete="off" name="form" role="form">
+      <input type="hidden" name="csrf_token" value="CIwNZNlR4XbisJF39I8yWnWX9wX4WFoz">
+      <div class="list list-inset login-mobile bgmodal" data-container="true">
+                <div class="item item-input component-holder" data-component="crn-input-icon" for="crn-input-icon-228215" title="{{'Login.view.Username' | translate}}">
+          <input aria-label="{{'Login.view.Username' | translate}}" autocomplete="username" autocorrect="off" autocapitalize="off" type="text" placeholder="{{'Login.view.Username' | translate}}" ng-model="vars.username" id="crn-input-icon-228215">
+        </div>
+        <div class="item item-input component-holder" data-component="crn-input-icon" for="crn-input-icon37951" title="{{'Login.view.Password' | translate}}">
+          <input aria-label="{{'Login.view.Password' | translate}}" autocomplete="current-password" type="password" placeholder="{{'Login.view.Password' | translate}}" ng-model="vars.password" id="crn-input-icon37951">
+        </div>
+        <div class="item" title="{{'Login.view.Login' | translate}}" for="crn-button-445347">
+          <button role="button" aria-label="{{'Login.view.Login' | translate}}" class="button component-holder button-full button-balanced" type="button" ng-click="cronapi.client('js.blockly.auth.Login.login').run(vars.username, vars.password, null)" data-component="crn-button" id="crn-button-445347" xattr-fullsize="button-full" xattr-theme="button-balanced" ng-disabled="form.$invalid || vm.dataLoading">
+            <i class=""></i>
+            <span>{{"Login.view.Login" | translate}}</span>
+          </button>
+        </div>
+        <div class="item bgmodal" title="{{message.error}}">
+          <div ng-show="message.error" class="help-block" data-container="true">
+            {{message.error}}
+          </div>
+        </div>
+      </div>
+      </form></div></ion-content>
+  </ion-modal-view></script>
+ 

@@ -1,0 +1,17 @@
+window.fixedTimeZone = true;
+window.timeZone = 'UTC';
+window.timeZoneOffset = 0;
+window.blockly = window.blockly || {};
+window.blockly.js = window.blockly.js || {};
+window.blockly.js.blockly = window.blockly.js.blockly || {};
+window.translations = window.translations || {};
+window.translations.localesKeys = ['en_us','pt_br'];
+window.translations.localesRef =  {"en*":"en_us","*":"pt_br","pt*":"pt_br"};
+document.write("<script src='js/blockly/auth/Login.blockly.js?1610907120000'></script>");
+document.write("<script src='js/blockly/novoMentorado.blockly.js?1610875712000'></script>");
+document.write("<script src='js/blockly/yesQ.blockly.js?1610847213000'></script>");
+document.write("<script src='js/blockly/startFont.blockly.js?1610780800000'></script>");
+document.write("<script src='js/blockly/auth/Home.blockly.js?1610772311000'></script>");
+document.write("<script src='js/blockly/auth/ChangePassword.blockly.js?1610772311000'></script>");
+document.write("<script src='js/blockly/ModalLogin.blockly.js?1610862079000'></script>");
+document.write("<script src='js/blockly/debugServe.blockly.js?1610858777000'></script>");

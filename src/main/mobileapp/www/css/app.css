@@ -1,0 +1,44 @@
+ion-content button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dim { 
+  max-width: 355px;
+  max-height: 200px;
+  width: 355px;
+  height: 200px;
+  min-width: 355px;
+  min-height: 200px;
+}
+
+.bgmodal { 
+  background-color: rgb(228, 101, 43);
+}
+
+.borderCard { 
+  border: 3px solid rgb(64, 182, 221);
+}
+
+.btnApp { 
+  background-color: rgb(239, 223, 6);
+  border-radius: 22px;
+  font-size: 0px;
+}
+
+.fontCard { 
+  font-size: 14px;
+  margin-top: 0px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 0px;
+}
+
+.bgpage { 
+  background-color: rgb(228, 101, 43);
+}
+
+.Title { 
+  font-size: 20px;
+  color: rgb(249, 246, 246);
+}

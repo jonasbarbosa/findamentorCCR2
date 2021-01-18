@@ -1,0 +1,39 @@
+<style title="local">
+#crn-image-104711 { 
+  width: 400px;
+  height: 330px;
+  border-radius: 161px;
+}
+
+#crn-paragraph-32621 { 
+  font-weight: bold;
+}
+</style><ion-view class="pane"> 
+  <ion-header-bar align-title="center" class="bar bar-positive" xattr-theme="bar-positive" data-component="crn-ion-header-bar" ng-show="false"> 
+    <div class="buttons buttons-left header-item"> 
+      <button class="button button-clear" menu-toggle="left" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button> 
+    </div> 
+    <h1 class="title">Title</h1> 
+    <div class="buttons buttons-right header-item"> 
+      <button class="button button-clear" menu-toggle="right" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button> 
+    </div> 
+  </ion-header-bar> 
+  <ion-content data-component="crn-ion-content" class="scroll-content bgpage has-header"> 
+    <div class="card component-holder" data-component="crn-card" id="crn-card-160050">
+      
+        
+        <h2 data-component="crn-heading" class="component-holder text-center" id="crn-heading-1616" xattr-position="text-center">Oi, {{session.user.name}}</h2>
+        <p xattr-position="text-left" class="text-left component-holder" data-component="crn-paragraph" id="crn-paragraph-1616">Com base nas suas respostas, sua grande área é:</p><p xattr-position="text-left" class="text-left component-holder" data-component="crn-paragraph" id="crn-paragraph-32621">Ciências Exatas e da Terra</p>
+      
+    </div>
+    <img alt="Avatar" src="img/4542742.jpg" class="component-holder center-block" style="" xattr-position="center-block" data-component="crn-image" id="crn-image-104711"><h1 data-component="crn-heading" class="component-holder text-center Title" id="crn-heading-180015" xattr-position="text-center">Conheça especialistas que irão te ajudar:</h1><datasource name="User" entity="app.User" keys="_objectKey" rows-per-page="100" on-before-create="" on-after-create="" on-before-update="" on-after-update="" on-before-delete="" on-after-delete="" on-after-fill="" data-component="crn-datasource" class="component-holder" schema="[{&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;accessFailedCount&quot;,&quot;type&quot;:&quot;Int32&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;email&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;emailConfirmed&quot;,&quot;type&quot;:&quot;Boolean&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;lockoutEnabled&quot;,&quot;type&quot;:&quot;Boolean&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;lockoutEnd&quot;,&quot;type&quot;:&quot;DateTime&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;name&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;normalizedEmail&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;normalizedUserName&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;password&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;phoneNumber&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;phoneNumberConfirmed&quot;,&quot;type&quot;:&quot;Boolean&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;securityStamp&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;twoFactorEnabled&quot;,&quot;type&quot;:&quot;Boolean&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;userName&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:false},{&quot;name&quot;:&quot;theme&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;picture&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;perfil&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;pontos&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;tipo&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;_objectKey&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:true}]" condition=""></datasource><div data-replace="false" data-component="crn-container" class="component-holder" id="crn-container-51635">
+      <div class="card component-holder" data-component="crn-card" id="crn-card-1033097" crn-repeat="User">
+       
+          
+          <h2 data-component="crn-heading" class="component-holder text-center" id="crn-heading-9925" xattr-position="text-center">{{rowData.tipo}}</h2>
+          <p xattr-position="text-left" class="text-left component-holder" data-component="crn-paragraph" id="crn-paragraph-9925">Grande Área: Ciências Exatas e da Terra</p>
+        
+      </div>
+    </div>
+  </ion-content> 
+</ion-view>
